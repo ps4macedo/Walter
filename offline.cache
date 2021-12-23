@@ -14,6 +14,8 @@ kexploitb.js
 kexploit-launcher.js
 malloc.js
 Mira.elf
+mira.js
+mira2.js
 netcat.js
 payload.html
 relocator.js
