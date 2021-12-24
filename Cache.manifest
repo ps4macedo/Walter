@@ -1,5 +1,4 @@
 CACHE MANIFEST 
-
 bg1.png
 exploit.js
 fan-threshold.js
@@ -13,6 +12,7 @@ kexploit.js
 kexploitb.js
 kexploit-launcher.js
 malloc.js
+Mira.elf
 mira.js
 mira2.js
 netcat.js
@@ -23,6 +23,8 @@ ropb.js
 ropb2.js
 syscalls.js
 syscalls2.js
+teste.html
+ToDex.bin
 web.html
 webkit.js
 imgs\app2usb.png

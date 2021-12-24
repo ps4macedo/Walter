@@ -1,6 +1,95 @@
 <html manifest=offline.cache>
 <head>
-<style>.bg{background-color:#000024;background-image:url(bg1.png);background-attachment:fixed;background-size:100%;background-repeat:no-repeat;font-family:system-ui;text-align:center}button{background-color:transparent;width:9.5%;height:145px}button:hover{background-color:#6089f6;cursor:pointer;border-radius:10px}button img{width:100%}.button2{border:2px solid #404040;border-radius:4px;display:inline-block;background:0 0;color:#d4d7d8;box-shadow:0 5px 0 #878787;height:inherit;width:inherit}.button2:hover{background:#00005c;border:2px solid #fff;box-shadow:0 5px 0 #ccc}.navbar{overflow:hidden;background-color:transparent}.navbar a{float:left;font-size:16px;color:#fff;text-align:center;padding:14px 16px;text-decoration:none}.subnav{float:left;overflow:hidden}.subnav .subnavbtn{font-size:16px;border:none;outline:0;color:#fff;padding:14px 16px;background-color:inherit;font-family:inherit;margin:10}.navbar a:hover,.subnav:hover .subnavbtn{background-color:transparent}.subnav-content{display:none;position:absolute;left:10;background-color:transparent;width:98%;z-index:1}.subnav-content a{float:left;color:#fff;text-decoration:none}.subnav-content a:hover{background-color:transparent;color:#000}.subnav:hover .subnav-content{display:block}</style>
+<style>
+.bg{
+background-color:#000024;
+background-image:url(bg1.png);
+background-attachment:fixed;
+background-size:100%;
+background-repeat:no-repeat;
+font-family:system-ui;
+text-align:center}
+
+button{
+background-color:transparent;
+width:9.5%;
+height:145px}
+
+button:hover{
+background-color:#6089f6;
+cursor:pointer;
+border-radius:10px}
+
+button img{
+width:100%}
+
+.button2{
+border:2px solid #404040;
+border-radius:4px;
+display:inline-block;
+background:0 0;
+color:#d4d7d8;
+box-shadow:0 5px 0 #878787;
+height:inherit;
+width:inherit}
+
+.button2:hover{
+background:#00005c;
+border:2px solid #fff;
+box-shadow:0 5px 0 #ccc}
+
+.navbar{
+overflow:hidden;
+background-color:transparent}
+
+.navbar a{
+float:left;
+font-size:16px;
+color:#fff;
+text-align:center;
+padding:14px 16px;
+text-decoration:none}
+
+.subnav{
+float:left;
+overflow:hidden}
+
+.subnav .subnavbtn{
+font-size:16px;
+border:none;
+outline:0;
+color:#fff;
+padding:14px 16px;
+background-color:inherit;
+font-family:inherit;
+margin:10}
+
+.navbar a:hover,.subnav:hover 
+
+.subnavbtn{
+background-color:transparent}
+
+.subnav-content{
+display:none;
+position:absolute;
+left:10;
+background-color:transparent;
+width:98%;
+z-index:1}
+
+.subnav-content a{
+float:left;
+color:#fff;
+text-decoration:none}
+
+.subnav-content a:hover{
+background-color:transparent;
+color:#000}
+
+.subnav:hover .subnav-content{
+display:block}
+</style>
+
 <meta charset="utf-8">
 <title>PS4MACEDO 9.00 Full</title>
 
@@ -35,10 +124,6 @@ if (xhr.readyState == 4){
 function allset() {
 window.msgs.innerHTML="<br>Carga útil <font style='color:#ee596f'>carregada</font>!!!";
 alert("Carga útil carregada!!! Clique em OK após \"erro de memória\".");
-/*
-if(179==l||0==l){localStorage.passcount=++localStorage.passcount,window.passCounter.innerHTML=localStorage.passcount,localStorage.desempenho=Math.round(parseInt(localStorage.passcount)/(parseInt(localStorage.passcount)+parseInt(localStorage.failcount))*100),window.desempenho.innerHTML=localStorage.desempenho,localStorage.infoDesb="<font style='color:#6089f6'>Exploração do kernel realizada.</font>",window.infoDesb.innerHTML=localStorage.infoDesb}
-else{localStorage.failcount=++localStorage.failcount,window.failCounter.innerHTML=localStorage.failcount,localStorage.desempenho=Math.round(parseInt(localStorage.passcount)/(parseInt(localStorage.passcount)+parseInt(localStorage.failcount))*100),window.desempenho.innerHTML=localStorage.desempenho,localStorage.infoDesb="<font style='color:#ee596f'>Exploração do kernel FALHOU!!!</font>",window.infoDesb.innerHTML=localStorage.infoDesb};
-*/
 }
 
 function goldhen(){
@@ -49,13 +134,6 @@ function goldhen2(){
     msgs.innerHTML="<br>Carregando <font style='color:#ee596f'>Goldhen v2.0b2</font>... Por favor <font style='color:#ee596f'>AGUARDE</font>!!!";
     PLfile = "goldhen2b2.bin"; out_jb = "GoldPL"; load_poc();}
 
-function Mira(){
-    msgs.innerHTML="<br>Carregando <font style='color:#ee596f'>Mira</font>... Por favor <font style='color:#ee596f'>AGUARDE</font>!!!";
-    PLfile = "Mira.elf"; out_jb = "AllPL"; load_poc();}
-
-function MiraHTML(){
-    setTimeout(msgs.innerHTML="<br>Carregando <font style='color:#ee596f'>Mira</font>... Por favor <font style='color:#ee596f'>AGUARDE</font>!!!",2e3);
-	window.location.replace("jb.html#p0=mira.js&amp;p1=mira2.js");}
 
 
 
@@ -291,15 +369,9 @@ function Bloader(){
 
 <div class=subnav>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class="button button2"class=subnavbtn style=font-size:25px;text-align:center;color:#ee596f>Desbloqueio<i class="fa fa-caret-down"></i></button> <div class=subnav-content><br><br><br><br><br>
 
-<button ; onclick="goldhen()" onmouseout='msgs.innerHTML=""'onmouseover="msgs.innerHTML=&#34;<font style='color:#ee596f'><U> GoldHen - v2.0b por SiSTRo </U></font> <br> <br> Adicionado servidor BinLoader (versão beta). Menu de IU adicionado.Estabilidade aprimorada e servidor FTP. Timestamps de troféu corrigidos. Recursos: Homebrew Enabler, configurações de depuração, suporte VR, instalação de pacote remoto, suporte para modo de descanso Suporte a HDD externo, suporte para formato oficial de HDD externo, suporte a Debug Trophies, satch sys_dynlib_dlsym, UART Enabler, Never Disable Screenshot, ativador de reprodução remota, bloco de atualização FW. servidor FTP na porta 2121, servidor BinLoader na porta 9090, CE-30391-6 Correção de erro CMOS&#34;"><img src=imgs/hen.png></button> 
+<button ; onclick="return goldhen(),!1" onmouseout='msgs.innerHTML=""'onmouseover="msgs.innerHTML=&#34;<font style='color:#ee596f'><U> GoldHen - v2.0b por SiSTRo </U></font> <br> <br> Adicionado servidor BinLoader (versão beta). Menu de IU adicionado.Estabilidade aprimorada e servidor FTP. Timestamps de troféu corrigidos. Recursos: Homebrew Enabler, configurações de depuração, suporte VR, instalação de pacote remoto, suporte para modo de descanso Suporte a HDD externo, suporte para formato oficial de HDD externo, suporte a Debug Trophies, satch sys_dynlib_dlsym, UART Enabler, Never Disable Screenshot, ativador de reprodução remota, bloco de atualização FW. servidor FTP na porta 2121, servidor BinLoader na porta 9090, CE-30391-6 Correção de erro CMOS&#34;"><img src=imgs/hen.png></button> 
 
-<button ; onclick="goldhen2()" onmouseout='msgs.innerHTML=""' onmouseover="msgs.innerHTML=&#34;<font style='color:#ee596f'><U> GoldHen - v2.0b2 por SiSTRo </U></font> <br> <br> Servidor BinLoader aprimorado (ainda versão beta). Menu de IU adicionado.Estabilidade aprimorada e servidor FTP. Timestamps de troféu corrigidos. Recursos: Homebrew Enabler, configurações de depuração, suporte VR, instalação de pacote remoto, suporte para modo de descanso Suporte a HDD externo, suporte para formato oficial de HDD externo, suporte a Debug Trophies, satch sys_dynlib_dlsym, UART Enabler, Never Disable Screenshot, ativador de reprodução remota, bloco de atualização FW. servidor FTP na porta 2121, servidor BinLoader na porta 9090, CE-30391-6 Correção de erro CMOS&#34;"><img src=imgs/hen.png></button> 
-
-<button ; onclick="MiraHTML()" onmouseout='msgs.innerHTML=""' onmouseover="msgs.innerHTML=&#34;<font style='color:#ee596f'><U> Mira - v1 por OpenOrbis </U></font> </U></font> <br> <br> Mira v1 é uma carga útil e uma série de ferramentas avançadas para PS4s com jailbreak. <br> É um Homebrew Enabler que permite executar código não assinado .&#34;"><img src=imgs/mira.png></button>
-
-
-
-<!--<button ; onclick="Mira()" onmouseout='msgs.innerHTML=""'onmouseover="msgs.innerHTML=&#34;<font style='color:#ee596f'><U> Mira - v1 por OpenOrbis </U></font> </U></font> <br> <br> Mira v1 é uma carga útil e uma série de ferramentas avançadas para PS4s com jailbreak. <br> É um Homebrew Enabler que permite executar código não assinado .&#34;"><img src=imgs/mira.png></button>-->
+<button ; onclick="return goldhen2(),!1" onmouseout='msgs.innerHTML=""' onmouseover="msgs.innerHTML=&#34;<font style='color:#ee596f'><U> GoldHen - v2.0b2 por SiSTRo </U></font> <br> <br> Servidor BinLoader aprimorado (ainda versão beta). Menu de IU adicionado.Estabilidade aprimorada e servidor FTP. Timestamps de troféu corrigidos. Recursos: Homebrew Enabler, configurações de depuração, suporte VR, instalação de pacote remoto, suporte para modo de descanso Suporte a HDD externo, suporte para formato oficial de HDD externo, suporte a Debug Trophies, satch sys_dynlib_dlsym, UART Enabler, Never Disable Screenshot, ativador de reprodução remota, bloco de atualização FW. servidor FTP na porta 2121, servidor BinLoader na porta 9090, CE-30391-6 Correção de erro CMOS&#34;"><img src=imgs/hen.png></button> 
 
 </div></div> 
 
@@ -311,11 +383,26 @@ function Bloader(){
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><h1 id=msgs style=font-size:28px;text-align:center;color:#fff></h1>
 
-<div style=text-align:left;position:fixed;left:10px;bottom:10px;width:100%;font-size:20px;color:#fff><div>Passou: <font color=#6089f6><span id=passCounter></span></font>  /  Falhou: <font color=#ee596f><span id=failCounter></span></font>  -  Desempenho: <font color=#6089f6><span id=desempenho></span>%<br></font>Versão do firmware compatível: <font color=#6089f6>9.00</font> - <font color=#ee596f><span id=infoDesb></span></font><br>Gratulações: <font color=#6089f6>TheFloW-SpecterDev-ChendoChap-Znullptr-Sleirsgoevy-SiSTRo-e todos que contribuíram com a cena.</font></div></div>
+<div style=text-align:left;position:fixed;left:10px;bottom:10px;width:100%;font-size:20px;color:#fff><div>Passou: <font color=#6089f6><span id=passCounter></span></font>  /  Falhou: <font color=#ee596f><span id=failCounter></span></font>  -  Desempenho: <font color=#6089f6><span id=desempenho></span>%<br></font>PS4 Firmware: <font color=#6089f6><span id="PS4fw"></span></font> - <font color=#ee596f><span id=infoDesb></span></font><br>Gratulações: <font color=#6089f6>TheFloW-SpecterDev-ChendoChap-Znullptr-Sleirsgoevy-SiSTRo-e todos que contribuíram com a cena.</font></div></div>
 
 </div>
 </div>
-<script>localStorage.infoDesb="ATENÇÃO! Aguardando o desbloqueio...",window.infoDesb.innerHTML=localStorage.infoDesb,null==localStorage.passcount&&(localStorage.passcount=0),window.passCounter.innerHTML=localStorage.passcount,null==localStorage.failcount&&(localStorage.failcount=0),window.failCounter.innerHTML=localStorage.failcount,null==localStorage.desempenho&&(localStorage.desempenho="Ainda sem dados"),window.desempenho.innerHTML=localStorage.desempenho</script>
+<script>
+var UA=navigator.userAgent.substring(navigator.userAgent.indexOf('5.0 (') + 19,navigator.userAgent.indexOf(') Apple')).replace("layStation 4/",""); 
+if(UA=="9.00"){PS4fw.innerHTML="v"+UA+" Detectado"};if(UA != "9.00"){PS4fw.innerHTML="Falsificado para v"+UA};
+</script>
+<script>
+if (localStorage.passcount == null) localStorage.passcount=0; 
+if (localStorage.failcount == null) localStorage.failcount=0;
+if (localStorage.infoDesb == null) localStorage.infoDesb="ATENÇÃO! Aguardando o desbloqueio..."; 
+if (localStorage.desempenho == null) localStorage.desempenho="Ainda sem dados";
+
+setTimeout(function(){
+window.passCounter.innerHTML=localStorage.passcount;
+window.failCounter.innerHTML=localStorage.failcount;
+window.failCounter.innerHTML=localStorage.desempenho;
+window.failCounter.innerHTML=localStorage.infoDesb},200);
+</script>
 </body>
 
 </html>
